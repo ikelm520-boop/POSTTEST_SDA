@@ -2,7 +2,6 @@
 #include <string>
 using namespace std;
 
-// Struktur Node untuk Circular Linked List Perpustakaan
 struct BukuNode {
     string judulBuku;
     BukuNode* next;
@@ -86,7 +85,6 @@ void tampilkanBuku(BukuNode* head) {
 int main() {
     BukuNode* head = nullptr;
 
-    // Tambah buku
     head = tambahBuku(head, "Struktur Data dengan C++");
     head = tambahBuku(head, "Pengantar Algoritma");
     head = tambahBuku(head, "Pemrograman Berorientasi Objek");
